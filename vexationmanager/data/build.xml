@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+ <module key="admin/vexationmanager"><![CDATA[{"default_controller":"usermanager","protected":0}]]></module>
+ <setting key="vexation_sub_packages"><![CDATA[{"key":"vexation_sub_packages","default":""}]]></setting>
+ <setting key="vexationmanager_group"><![CDATA[{"key":"vexationmanager_group","default":"-1"}]]></setting>
+ <setting key="vexationmanager_group_secondary"><![CDATA[{"key":"vexationmanager_group_secondary","default":"-1"}]]></setting>
+ <setting key="vexationmanager_host"><![CDATA[{"key":"vexationmanager_host","default":""}]]></setting>
+ <setting key="vexationmanager_package_command"><![CDATA[{"key":"vexationmanager_package_command","default":"lp user %s group add %s"}]]></setting>
+ <setting key="vexationmanager_password"><![CDATA[{"key":"vexationmanager_password","default":""}]]></setting>
+ <setting key="vexationmanager_permitted_groups"><![CDATA[{"key":"vexationmanager_permitted_groups","default":"-1"}]]></setting>
+ <setting key="vexationmanager_port"><![CDATA[{"key":"vexationmanager_port","default":""}]]></setting>
+ <setting key="vexationmanager_sql_database"><![CDATA[{"key":"vexationmanager_sql_database","default":""}]]></setting>
+ <setting key="vexationmanager_sql_host"><![CDATA[{"key":"vexationmanager_sql_host","default":""}]]></setting>
+ <setting key="vexationmanager_sql_password"><![CDATA[{"key":"vexationmanager_sql_password","default":""}]]></setting>
+ <setting key="vexationmanager_sql_port"><![CDATA[{"key":"vexationmanager_sql_port","default":"3306"}]]></setting>
+ <setting key="vexationmanager_sql_user"><![CDATA[{"key":"vexationmanager_sql_user","default":""}]]></setting>
+ <hook key="themeSystemSettings"><![CDATA[{"type":"S","class":"\\IPS\\Theme\\class_core_front_system"}]]></hook>
+ <hook key="codeCoreSystemSettings"><![CDATA[{"type":"C","class":"\\IPS\\core\\modules\\front\\system\\settings"}]]></hook>
+ <hook key="pluginFunction"><![CDATA[{"type":"C","class":"\\IPS\\core\\modules\\front\\system\\plugins"}]]></hook>
+ <hook key="codeMember"><![CDATA[{"type":"C","class":"\\IPS\\Member"}]]></hook>
+ <hook key="vexationUrlInUserMenu"><![CDATA[{"type":"S","class":"\\IPS\\Theme\\class_core_front_global"}]]></hook>
+ <hook key="cancellInvoice"><![CDATA[{"type":"C","class":"\\IPS\\nexus\\modules\\admin\\payments\\invoices"}]]></hook>
+ <hook key="updateRank"><![CDATA[{"type":"C","class":"\\IPS\\nexus\\Package"}]]></hook>
+</build>

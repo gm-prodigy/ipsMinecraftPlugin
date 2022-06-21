@@ -1,0 +1,25 @@
+{
+    "vexationmanager": {
+        "settings": {
+            "settings_manage": "settings_manage"
+        },
+        "usermanager": {
+            "usermanager_manage": "usermanager_manage"
+        }
+    },
+    "vexationservers": {
+        "servers": {
+            "servers_manage": "servers_manage"
+        }
+    },
+    "vexationlogs": {
+        "bans": {
+            "bans_manage": "bans_manage"
+        }
+    },
+    "devstuff": {
+        "console": {
+            "console_manage": "console_manage"
+        }
+    }
+}

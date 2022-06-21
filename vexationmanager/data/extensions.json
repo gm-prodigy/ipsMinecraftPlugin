@@ -1,0 +1,10 @@
+{
+    "core": {
+        "MemberHistory": {
+            "vexationMemberLogs": "IPS\\vexationmanager\\extensions\\core\\MemberHistory\\vexationMemberLogs"
+        },
+        "MemberSync": {
+            "Auths": "IPS\\vexationmanager\\extensions\\core\\MemberSync\\Auths"
+        }
+    }
+}

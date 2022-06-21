@@ -1,0 +1,50 @@
+<ips:template parameters="$auth, $username, $primary_group,$uuid"/>
+
+<h2 class="ipsType_sectionHead">Vex Auth</h2>
+<hr class="ipsHr">
+
+    <div class="ipsType_minorHeading">
+        Your Vex Auth code can be used to verify, and link your account on any of our services.
+        <div class="ipsType_veryLarge">
+        <a href={url="app=core&module=system&section=plugins&do=changeAuthKey" csrf="true"} class="ipsButton ipsButton_small ipsButton_important" data-ipsDialog data-ipsDialog-title="Resetting in 10 second(s)..." data-ipsDialog-size='narrow'>
+						<span class="fa fa-user"></span> Reset Auth Key
+					</a>       
+         <button id="button1"  class="ipsButton ipsButton_small ipsButton_primary" title="Show Auth Key">Show Auth Key</button>
+
+<div id="div1" style="display: none;">{$auth->code}
+<b><p  style="font-weight: bold; font-size: 15px">You can use /link {$auth->code} in game to get started.</p><b>
+</div>
+
+<hr class="ipsHr">
+            
+        </div>
+    </div>
+    <br><br><br>
+    <div>
+    
+    {{if mb_strpos($username, '*') !== false}}
+      {{$strip = mb_substr($username, 1);}}
+      
+        <div class="card">
+        <img src="https://minotar.net/body/95" alt="Minecraft Avatar" style="width:50%">
+        <h1></i>{$strip}</h1></p>
+        <p class="title">Role: {$primary_group}</p> 
+        <p>Version: Bedrock</p> 
+        <a href={url="app=core&module=system&section=plugins&do=unlinkUUID" csrf="true"} class="ipsButton ipsButton_medium ipsButton_primary ipsButton_fullWidth" data-ipsDialog data-ipsDialog-title='Unlink' data-ipsDialog-size='narrow'>
+						<span class="fa fa-user"></span> Unlink Account
+					</a>
+        </div>
+    {{elseif !empty($username)}}
+        <div class="card">
+        <img src="https://minotar.net/body/{$username}/95" alt="Minecraft Avatar" style="width:50%">
+        <h1>{$username}</h1></p>
+        <p class="title">Role: {$primary_group}</p>
+        <p class="title">Version: Java</p>  
+
+        <a href={url="app=core&module=system&section=plugins&do=unlinkUUID" csrf="1"} class="ipsButton ipsButton_medium ipsButton_primary ipsButton_fullWidth" data-ipsDialog data-ipsDialog-title='Unlinking in 10 second(s)...' data-ipsDialog-size='narrow'>
+						<span class="fa fa-user"></span> Unlink Account
+					</a>
+        </div>
+    {{endif}}
+
+

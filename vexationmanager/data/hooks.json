@@ -1,0 +1,30 @@
+{
+    "themeSystemSettings": {
+        "type": "S",
+        "class": "\\IPS\\Theme\\class_core_front_system"
+    },
+    "codeCoreSystemSettings": {
+        "type": "C",
+        "class": "\\IPS\\core\\modules\\front\\system\\settings"
+    },
+    "pluginFunction": {
+        "type": "C",
+        "class": "\\IPS\\core\\modules\\front\\system\\plugins"
+    },
+    "codeMember": {
+        "type": "C",
+        "class": "\\IPS\\Member"
+    },
+    "vexationUrlInUserMenu": {
+        "type": "S",
+        "class": "\\IPS\\Theme\\class_core_front_global"
+    },
+    "cancellInvoice": {
+        "type": "C",
+        "class": "\\IPS\\nexus\\modules\\admin\\payments\\invoices"
+    },
+    "updateRank": {
+        "type": "C",
+        "class": "\\IPS\\nexus\\Package"
+    }
+}

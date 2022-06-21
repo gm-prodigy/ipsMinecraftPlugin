@@ -1,0 +1,9 @@
+{
+    "1": {
+        "method": "dropIndex",
+        "params": [
+            "vexationmanager_auths",
+            "uniqe_member_id"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "vexationmanager": {
+        "settings": {
+            "tab": "vexationmanager",
+            "controller": "settings",
+            "do": "",
+            "restriction": "settings_manage"
+        },
+        "usermanager": {
+            "tab": "vexationmanager",
+            "controller": "usermanager",
+            "do": "",
+            "restriction": "usermanager_manage"
+        }
+    }
+}

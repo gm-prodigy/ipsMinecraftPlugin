@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="vexationmanager" version="40054">
+  <word key="__app_vexationmanager" js="0">Vexation Manager</word>
+  <word key="menutab__vexationmanager" js="0">Vexation Manager</word>
+  <word key="title__vexationmanager_vexationmanager_usermanager" js="0">Vexation Manager</word>
+  <word key="menu__vexationmanager_vexationmanager" js="0">Vexation Settings</word>
+  <word key="menu__vexationmanager_vexationmanager_settings" js="0">Settings</word>
+  <word key="menu__vexationmanager_vexationmanager_usermanager" js="0">User Manager</word>
+  <word key="vexationmanager_permitted_groups" js="0">Groups to use Vex Auth</word>
+  <word key="menu__vexationmanager_vexationserver" js="0">Vexation's Users Settings</word>
+  <word key="menu__vexationmanager_vexationserver_usermanager" js="0">User Manager</word>
+  <word key="menutab__vexationmanager_icon" js="0">vimeo</word>
+  <word key="r__usermanager_manage" js="0">Can manage Vexation server users</word>
+  <word key="can_access_server_info" js="0">Can Access Vexation User Panel</word>
+  <word key="module__vexationmanager_vexationmanager" js="0">Vexation Manager</word>
+  <word key="vex_user_panel" js="0">User Panel</word>
+  <word key="can_access_vex_userpanel" js="0">Can use forums usermanager?</word>
+  <word key="vexation_usermanager_photo" js="0">Profile Picture</word>
+  <word key="vexation_usermanager_member_id" js="0">Forums Username</word>
+  <word key="vexation_usermanager_uuid" js="0">Minecraft UUID</word>
+  <word key="vexation_usermanager_username" js="0">Minecraft Username</word>
+  <word key="vexation_usermanager_primary_group" js="0">Minecraft Role</word>
+  <word key="console_content" js="0">Send Command</word>
+  <word key="vexation_sub_packages" js="0">Vexation Packages</word>
+  <word key="user_settings" js="0">Edit User</word>
+  <word key="uuid" js="0">Minecraft UUID</word>
+  <word key="log_type_title_uuid_removed" js="0">Removed UUID</word>
+  <word key="log_type_title_uuid_add" js="0">Added UUID</word>
+  <word key="log_type_title_uuid_change" js="0">Changed UUID To</word>
+  <word key="log_type_title_uuid_used_onPurchase" js="0">Purchase History</word>
+  <word key="no_uuid_store" js="0"><![CDATA[You need to link your Minecraft Account using our Vex Auth. <br> <a href='/settings/vexauth/?area=auth'>Click here to get started</a>]]></word>
+ </app>
+</language>

@@ -1,0 +1,23 @@
+{
+    "html": {
+        "added": [],
+        "edited": [
+            "admin\/configuration\/console",
+            "admin\/configuration\/info",
+            "front\/hooks\/requestUuidUnlink",
+            "front\/hooks\/settings",
+            "front\/hooks\/settingsAuth"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

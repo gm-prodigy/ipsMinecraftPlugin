@@ -1,0 +1,19 @@
+{
+    "added": [
+        "vexation_sub_packages",
+        "vexationmanager_group",
+        "vexationmanager_group_secondary",
+        "vexationmanager_host",
+        "vexationmanager_package_command",
+        "vexationmanager_password",
+        "vexationmanager_permitted_groups",
+        "vexationmanager_port",
+        "vexationmanager_sql_database",
+        "vexationmanager_sql_host",
+        "vexationmanager_sql_password",
+        "vexationmanager_sql_port",
+        "vexationmanager_sql_user"
+    ],
+    "edited": [],
+    "removed": []
+}

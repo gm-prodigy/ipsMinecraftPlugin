@@ -1,0 +1,54 @@
+[
+    {
+        "key": "vexation_sub_packages",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_group",
+        "default": "-1"
+    },
+    {
+        "key": "vexationmanager_group_secondary",
+        "default": "-1"
+    },
+    {
+        "key": "vexationmanager_host",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_package_command",
+        "default": "lp user %s group add %s"
+    },
+    {
+        "key": "vexationmanager_password",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_permitted_groups",
+        "default": "-1"
+    },
+    {
+        "key": "vexationmanager_port",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_sql_database",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_sql_host",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_sql_password",
+        "default": ""
+    },
+    {
+        "key": "vexationmanager_sql_port",
+        "default": "3306"
+    },
+    {
+        "key": "vexationmanager_sql_user",
+        "default": ""
+    }
+]

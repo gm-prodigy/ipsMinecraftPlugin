@@ -1,0 +1,9 @@
+{
+    "admin": {
+        "vexationmanager": {
+            "default_controller": "usermanager",
+            "protected": 0
+        }
+    },
+    "front": []
+}

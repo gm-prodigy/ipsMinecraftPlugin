@@ -1,0 +1,4 @@
+<ips:template parameters="$content, $raw=TRUE, $type='information'" />
+<div class="ipsMessage ipsMessage_{$type}" style="margin: 15px">
+    {{if $raw}}{$content|raw}{{else}}{$content}{{endif}}
+</div>
